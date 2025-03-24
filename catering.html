@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Caverta</title>
+    <title>Contact - Zaika</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
     <!-- Owl Carousel -->
     <link rel='stylesheet' id='owl-carousel' href='js/owl-carousel/owl.carousel.min.css' type='text/css' media='all' />
     <!-- Main CSS File -->
-    <link rel='stylesheet' id='caverta-style-css' href='style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='Zaika-style-css' href='style.css' type='text/css' media='all' />
     <!-- favicons -->
     <link rel="icon" href="images/icons/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" href="images/icons/favicon-192x192.png" sizes="192x192" />
@@ -37,7 +37,7 @@
             </div>
             <!-- MOBILE MENU -->
             <ul class="menu-mobile">
-                <li class="menu-item  current-menu-item">
+                <li class="menu-item ">
                     <a href="index.html">Home</a>
                 </li>
                 <li class="menu-item ">
@@ -61,7 +61,7 @@
                         href="https://www.opentable.com/restref/client/?restref=1064509&lang=en-US&ot_source=Restaurant%20website&corrid=b15f3ae9-7aab-420d-b97e-a5862f3d9d92">Reservation</a>
                 </li>
 
-                <li class="menu-item ">
+                <li class="menu-item current-menu-item">
                     <a href="catering.html">Catering </a>
 
                 </li>
@@ -86,7 +86,7 @@
             <div class="mobile-btn">
                 <a href="https://order.toasttab.com/online/zaika" class="slider-btn">Order Online</a> <a
                     href="https://www.opentable.com/restref/client/?restref=1064509&lang=en-US&ot_source=Restaurant%20website&corrid=b15f3ae9-7aab-420d-b97e-a5862f3d9d92"
-                    class="view-more">Book a Table</a>
+                    class="view-more">Reservation</a>
             </div>
             <ul class="mobile-contact">
                 <li class="mobile-address">1100 Pike St<br>
@@ -115,8 +115,8 @@
         </div>
         <!-- /nav-button-holder-->
         <!-- LOGO -->
-        <div class="logo logo-1"><a href="index.html"><img class="img-fluid" src="images/caverta-logo.png"
-                    alt="Caverta" /></a></div>
+        <div class="logo logo-1"><a href="index.html"><img class="img-fluid" src="images/Caverta-logo.png"
+                    alt="Zaika" /></a></div>
         <!-- MENU -->
         <nav class="nav-holder nav-holder-1">
             <ul class="menu-nav menu-nav-1">
@@ -138,7 +138,7 @@
                 <li class="menu-item"><a
                         href="https://www.opentable.com/restref/client/?restref=1064509&lang=en-US&ot_source=Restaurant%20website&corrid=b15f3ae9-7aab-420d-b97e-a5862f3d9d92">Reservation</a>
                 </li>
-                <li class="menu-item current-menu-item  ">
+                <li class="menu-item current-menu-item">
                     <a href="catering.html">Catering </a>
 
                 </li>
@@ -166,7 +166,7 @@
             <a href="https://order.toasttab.com/online/zaika" class="slider-btn">Order Online</a>
             <div class="btn-header btn-header1"> <a
                     href="https://www.opentable.com/restref/client/?restref=1064509&lang=en-US&ot_source=Restaurant%20website&corrid=b15f3ae9-7aab-420d-b97e-a5862f3d9d92"
-                    class="view-more">Book a Table</a>
+                    class="view-more">Reservation</a>
             </div>
         </div>
         <!-- /social-btn-top1 -->
@@ -180,10 +180,10 @@
     </section>
     <style>
         .single-post-title {
-           font-size: clamp(30px, 4vw, 50px);
-           /* Adjusts based on screen size */
+            font-size: clamp(30px, 4vw, 50px);
+            /* Adjusts based on screen size */
         }
-     </style>
+    </style>
     <!-- /TOP IMAGE -->
     <!-- WRAP CONTENT -->
     <div id="wrap-content" class="page-content custom-page-template">
@@ -198,31 +198,32 @@
                             <!-- /col-md-6 -->
                             <div class="col-md-6 margin-b72">
                                 <div id="contact-holder-home">
-                                    <form method="post" id="contact-form-home"
-                                        action='include/contact-process-home.php'>
+                                    <form method="POST" id="contact-form-home"
+                                        action="https://formsubmit.co/zaikaseattle@gmail.com">
+                                        <input type="hidden" name="_captcha" value="false">
                                         <div class="contact-holder">
-                                            <input name="name" value="" size="40" class="comm-field"
-                                                aria-required="true" aria-invalid="false" placeholder="Name"
-                                                type="text">
-                                            <input name="email" value="" size="40" class="comm-field"
-                                                aria-required="true" aria-invalid="false" placeholder="Email"
-                                                type="email">
-                                            <input name="phone" value="" size="40" class="comm-field"
-                                                aria-invalid="false" placeholder="Phone" type="text">
-                                            <input name="People" value="" size="5" class="comm-field"
-                                                aria-invalid="false" placeholder="Number of People" type="text">
-                                            <input name="budget" value="" size="5" class="comm-field"
-                                                aria-invalid="false" placeholder="Budget Per Person" type="text">
-                                            <input name="Occasion" value="" size="5" class="comm-field"
-                                                aria-invalid="false" placeholder="Occasion" type="text">
-
+                                            <input name="name" size="40" class="comm-field" aria-required="true"
+                                                aria-invalid="false" placeholder="Name" type="text" required>
+                                            <input name="email" size="40" class="comm-field" aria-required="true"
+                                                aria-invalid="false" placeholder="Email" type="email" required>
+                                            <input name="phone" size="40" class="comm-field" aria-invalid="false"
+                                                placeholder="Phone" type="text">
+                                            <input name="People" size="5" class="comm-field" aria-invalid="false"
+                                                placeholder="Number of People" type="text">
+                                            <input name="budget" size="5" class="comm-field" aria-invalid="false"
+                                                placeholder="Budget Per Person" type="text">
+                                            <input name="Occasion" size="5" class="comm-field" aria-invalid="false"
+                                                placeholder="Occasion" type="text">
                                         </div>
                                         <!-- /contact-holder -->
                                         <p><textarea name="message" cols="40" rows="5" id="msg-contact"
-                                                aria-required="true" aria-invalid="false"
-                                                placeholder="Your Message"></textarea></p>
-                                        <p class="antispam">Leave this empty: <input type="text" name="url" /></p>
-                                        <p><input value="Contact Us" id="submit-contact" type="submit"></p>
+                                                aria-required="true" aria-invalid="false" placeholder="Your Message"
+                                                required></textarea></p>
+                                        <p class="antispam" style="display: none;">Leave this empty: <input type="text"
+                                                name="url" /></p>
+                                        <p style="text-align: center;">
+                                            <input value="Contact Us" id="submit-contact" type="submit">
+                                        </p>
                                     </form>
                                 </div>
                                 <div id="output-contact"></div>
@@ -238,79 +239,180 @@
         </div>
         <!-- /container -->
     </div>
+
     <!-- /WRAP CONTENT -->
     <!-- FOOTER -->
     <footer class="custom-footer">
         <div class="container">
-           <div class="custom-footer-widgets">
-              <div class="custom-footer-row">
-                 <!-- FOOTER COLUMN 1 -->
-                 <div class="custom-footer-col">
-                    <div class="custom-foo-block">
-                       <div class="widget widget-footer widget_text">
-                          <div class="textwidget">
-                             <p><img class="footer-logo" src="images/caverta-logo.png" alt="Zaika Logo"></p>
-                             <p>For a truly memorable dining experience, reserve in advance. Come and taste our remarkable food and wine.</p>
-                          </div>
-                       </div>
+            <div class="custom-footer-widgets">
+                <div class="custom-footer-row">
+                    <!-- FOOTER COLUMN 1 -->
+                    <div class="custom-footer-col">
+                        <div class="custom-foo-block">
+                            <div class="widget widget-footer widget_text">
+                                <div class="textwidget">
+                                    <p><img class="footer-logo" src="images/Caverta-logo.png" alt="Zaika Logo"></p>
+                                    <p>For a truly memorable dining experience, reserve in advance. Come and taste our
+                                        remarkable
+                                        food and wine.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                 </div>
-                 <!-- FOOTER COLUMN 2 -->
-                 <div class="custom-footer-col">
-                    <div class="custom-foo-block">
-                       <div class="widget widget-footer widget_text">
-                          <h5 class="widgettitle"><span>Address</span></h5>
-                          <div class="textwidget">
-                             <p>1100 Pike St<br>Seattle, WA 98101</p>
-                             <p><a href="tel:+12064329355">(206) 432-9355</a><br>
-                                <a href="mailto:zaikaseattle@gmail.com">zaikaseattle@gmail.com</a>
-                             </p>
-                          </div>
-                       </div>
+                    <!-- FOOTER COLUMN 2 -->
+                    <div class="custom-footer-col">
+                        <div class="custom-foo-block">
+                            <div class="widget widget-footer widget_text">
+                                <h5 class="widgettitle"><span>Address</span></h5>
+                                <div class="textwidget">
+                                    <p class="address">1100 Pike St<br>Seattle, WA 98101</p>
+                                    <p class="contact-info"><a href="tel:+12064329355">(206) 432-9355</a><br>
+                                        <a href="mailto:zaikaseattle@gmail.com">zaikaseattle@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                 </div>
-                 <!-- FOOTER COLUMN 3 -->
-                 <div class="custom-footer-col">
-                    <div class="custom-foo-block">
-                       <div class="widget widget-footer widget_text">
-                          <h5 class="widgettitle"><span>Quick Links</span></h5>
-                          <div class="textwidget">
-                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="menu.html">Menu</a></li>
-                                <li><a href="reservation.html">Reservation</a></li>
-                                <li><a href="catering.html">Catering</a></li>
-                             </ul>
-                          </div>
-                       </div>
+                    <!-- FOOTER COLUMN 3 -->
+                    <div class="custom-footer-col">
+                        <div class="custom-foo-block">
+                            <div class="widget widget-footer widget_text">
+                                <h5 class="widgettitle"><span>Quick Links</span></h5>
+                                <div class="textwidget">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="menu.html">Menu</a></li>
+                                        <li><a
+                                                href="https://www.opentable.com/restref/client/?restref=1064509">Reservation</a>
+                                        </li>
+                                        <li><a href="catering.html">Catering</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                 </div>
-                 <!-- FOOTER COLUMN 4 -->
-                 <div class="custom-footer-col">
-                    <div class="custom-foo-block custom-foo-last">
-                       <div class="widget widget-footer widget_text">
-                          <h5 class="widgettitle"><span>More Info</span></h5>
-                          <div class="textwidget">
-                             <ul>
-                                <li><a href="contact.html">Contact Us</a></li>
-                                <li><a href="#">Gallery</a></li>
-                             </ul>
-                          </div>
-                       </div>
+                    <!-- FOOTER COLUMN 4 -->
+                    <div class="custom-footer-col">
+                        <div class="custom-foo-block custom-foo-last">
+                            <div class="widget widget-footer widget_text">
+                                <h5 class="widgettitle"><span>More Info</span></h5>
+                                <div class="textwidget">
+                                    <ul>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                 </div>
-              </div>
-           </div>
-           <!-- COPYRIGHT & SOCIAL ICONS -->
-           <div class="custom-footer-copy">
-              <p>Copyright &copy; 2025, Zaika.</p>
-              <ul class="custom-footer-social">
-                 <li><a href="https://www.facebook.com/share/1Dsh5fcV8X/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                 <li><a href="https://www.instagram.com/zaikaseattle/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-              </ul>
-           </div>
+                </div>
+            </div>
+            <!-- COPYRIGHT & SOCIAL ICONS -->
+            <div class="custom-footer-copy">
+                <p>Copyright &copy; 2025, Zaika.</p>
+                <br />
+                <ul class="custom-footer-social">
+                    <li><a href="https://www.facebook.com/share/1Dsh5fcV8X/" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/zaikaseattle/" target="_blank"><i
+                                class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
         </div>
-     </footer>
+    </footer>
+
+	<style>
+		/* Footer Fixes */
+		.custom-footer {
+			background-color: #f8f8f8;
+			padding: 20px 10px;
+			text-align: center;
+		}
+
+		/* Footer Alignment Fix */
+		.custom-footer .widgettitle {
+			margin-bottom: 10px;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.custom-footer .textwidget {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* Centering content */
+			text-align: center;
+		}
+
+		.custom-footer .contact-info {
+			margin-top: 5px;
+		}
+
+		.custom-footer .custom-footer-col {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.custom-footer .custom-footer-col .textwidget p {
+			margin: 5px 0;
+		}
+
+		/* Fix Address Alignment */
+		.custom-footer .address,
+		.custom-footer .contact-info {
+			display: block;
+			text-align: center;
+			width: 100%;
+		}
+
+
+
+		/* Stack Columns in Mobile View */
+		@media (max-width: 600px) {
+			.custom-footer-row {
+				display: flex;
+				flex-direction: column;
+				text-align: center;
+			}
+
+			.custom-footer-col {
+				width: 100%;
+				padding: 10px 0;
+			}
+
+			.footer-logo {
+				max-width: 120px;
+				height: auto;
+			}
+
+			.custom-footer-copy {
+				margin-top: 10px;
+			}
+		}
+
+		@media (max-width: 600px) {
+			.textwidget img {
+				max-width: 100px;
+				/* Reduce the logo size */
+				height: auto;
+				display: block;
+				margin: 0 auto;
+				/* Center align */
+			}
+
+			.textwidget {
+				text-align: center;
+				/* Ensure parent container centers the image */
+			}
+
+			.address,
+			.contact-info {
+				text-align: center;
+				/* Center align the address and contact details */
+			}
+		}
+	</style>
     <!-- /FOOTER -->
     <div class="scrollup">
         <a class="scrolltop" href="#">

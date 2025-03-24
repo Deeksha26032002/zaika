@@ -1,5 +1,5 @@
 /*
-Caverta - Restaurant Cafe Template
+Zaika - Restaurant Cafe Template
 Version: 1.3.2
 Author: MatchThemes
 https://matchthemes.com
@@ -392,9 +392,26 @@ h6 {
   font-size: var(--headings-h6-size);
 }
 
-a {
-  color: var(--headings-color);
+@media (max-width: 768px) {
+
+  /* Targeting mobile screens */
+  a {
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+  }
 }
+
+@media (min-width: 769px) {
+
+  /* Targeting desktop screens */
+  a {
+    color: rgb(153, 153, 153);;
+    /* Keep the default color */
+    font-size: inherit;
+    /* No font size applied */
+  }
+}
+
 
 p a {
   color: var(--primary-color);
@@ -1295,8 +1312,12 @@ a.social-skype:hover {
 
 .intro-txt {
   font-weight: 500;
-  font-size: 46px;
+  font-size: 42px;
   letter-spacing: 0.03em;
+}
+
+.mobile-contact {
+  margin-top: 20px;
 }
 
 .slider-caption h2 {
@@ -1851,7 +1872,7 @@ a.social-skype:hover {
 }
 
 .menu-title-section a {
-  color: var(--headings-color);
+  color: var(--headings-col);
 }
 
 .menu-title-section.active,
@@ -3099,8 +3120,10 @@ footer a,
   padding-top: 10px;
   margin-top: 15px;
 }
+
 .footer-section {
-  text-align: left; /* Ensure all text blocks align properly */
+  text-align: left;
+  /* Ensure all text blocks align properly */
 }
 
 .copyright {
